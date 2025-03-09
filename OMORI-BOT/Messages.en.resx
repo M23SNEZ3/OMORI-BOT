@@ -1,0 +1,142 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="about" xml:space="preserve">
+        <value>BotOMORI is a repository of a bot written in C# using the [Remora.Discord](https://github.com/Remora/Remora.Discord) library.&#xA; - The main developer is [M23SNEZ3](https://github.com/M23SNEZ3).&#xA; - Development assistant is [Brain](https://github.com/imcatboy)</value>
+    </data>
+
+    <data name="ErrorNotFoundSymbol" xml:space="preserve">
+    <value>The last {0} messages do not start with the symbol ( or word ) "{1}"</value>
+</data>
+
+    <data name="Error" xml:space="preserve">
+    <value>Error</value>
+</data>
+
+    <data name="UnknownError" xml:space="preserve">
+    <value>Unknown error</value>
+</data>
+
+    <data name="Successfully" xml:space="preserve">
+    <value>Successfully</value>
+</data>
+
+    <data name="SuccessfullyDeletedMessages" xml:space="preserve">
+    <value>Messages successfully deleted</value>
+</data>
+
+    <data name="ErrorDeletedTwoWeeks" xml:space="preserve">
+    <value>Some messages you are trying to delete are older than 2 weeks</value>
+</data>
+
+    <data name="SuccessfullyDeletedMessagesFromUser" xml:space="preserve">
+    <value>Messages from user &lt;@{0}&gt;</value>
+</data>
+
+    <data name="SuccessfullyDeletedMessagesWithSymbol" xml:space="preserve">
+    <value>Messages with {0} successfully deleted</value>
+</data>
+
+    <data name="SuccessfullyRememberBirthday" xml:space="preserve">
+    <value>I remembered the participant's birthday!</value>
+</data>
+
+    <data name="ErrorRememberBirthday" xml:space="preserve">
+    <value>I already remember the participant's birthday</value>
+</data>
+
+    <data name="ErrorDontRemember" xml:space="preserve">
+    <value>I don't remember such a participant</value>
+</data>
+
+    <data name="SuccessfullyForgetBirthday" xml:space="preserve">
+    <value>The user's birthday has been successfully forgotten</value>
+</data>
+
+    <data name="NoMessagesToClear" xml:space="preserve">
+    <value>Cannot delete messages!</value>
+</data>
+
+    <data name="NoAccessToUse" xml:space="preserve">
+    <value>You do not have permission to use this command!</value>
+</data>
+
+    <data name="SuccessfullyAddToWhiteList" xml:space="preserve">
+    <value>Participant {0} successfully added to the white list</value>
+</data>
+
+    <data name="ErrorDeleteWhiteListServer" xml:space="preserve">
+    <value>Participant {0} not removed from the white list because they are not on the server!</value>
+</data>
+
+    <data name="ErrorDeleteWhiteListYet" xml:space="preserve">
+    <value>Participant {0} not removed from the white list because they are already there</value>
+</data>
+
+    <data name="SuccesfullyDeleteFromWhiteList" xml:space="preserve">
+    <value>Participant {0} successfully removed from the white list</value>
+</data>
+
+    <data name="PrintWhiteList" xml:space="preserve">
+    <value>Participants in the white list: {0}</value>
+</data>
+
+    <data name="ErrorPrintWhiteList" xml:space="preserve">
+    <value>The white list is empty.</value>
+</data>
+    <data name="ErrorAddWhiteListYet" xml:space="preserve">
+    <value>Participant {0} not added to the white list because they are already there!</value>
+</data>
+
+    <data name="ErrorBanAlready" xml:space="preserve">
+    <value>Participant {0} is already banned!</value>
+</data>
+
+    <data name="SuccesfullyBan" xml:space="preserve">
+    <value>Participant {0} successfully banned!</value>
+</data>
+
+    <data name="DMBanMessage" xml:space="preserve">
+    <value>You have been banned from server {0} by participant {1} for the reason: {2}</value>
+</data>
+
+    <data name="ErrorUnbanMemberNotBan" xml:space="preserve">
+    <value>User {0} is not banned, I cannot unban them</value>
+</data>
+
+    <data name="UnBanWithoutReason" xml:space="preserve">
+    <value>User {0} unbanned without specifying a reason</value>
+</data>
+
+    <data name="UnBanWithReason" xml:space="preserve">
+    <value>User {0} unbanned for the reason: {1}</value>
+</data>
+
+    <data name="UnknownDate" xml:space="preserve">
+    <value>Invalid date entered</value>
+</data>
+
+    <data name="MemberKicked" xml:space="preserve">
+    <value>Participant {0} has been successfully kicked!</value>
+</data>
+
+    <data name="DMMessageKick" xml:space="preserve">
+    <value>You have been kicked from server {0} by participant {1} for the reason: {2}</value>
+</data>
+    <data name="EditLangOnServer" xml:space="preserve">
+        <value>The language on the server has been changed to {0}</value>
+    </data>
+    <data name="UpcomingBirthdays" xml:space="preserve">
+        <value>Upcoming birthdays</value>
+    </data>
+</root>

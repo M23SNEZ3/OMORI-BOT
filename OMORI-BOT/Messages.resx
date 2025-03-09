@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+
+    <data name="about" xml:space="preserve">
+        <value>БотОМОРИ - Это репозиторий бота, написанный на C# с помощью библиотеки [Remora.Discord](https://github.com/Remora/Remora.Discord)&#xA; - Главный разработчик - [M23SNEZ3](https://github.com/M23SNEZ3)&#xA; - Помощник по разработке - [Brain](https://github.com/imcatboy)</value>
+    </data>
+    
+    <data name = "ErrorNotFoundSymbol" xml:space="preserve">
+        <value>Последние {0} сообщений не начинаются с символа ( или слова ) "{1}"</value>
+    </data>
+    
+    <data name = "Error" xml:space="preserve">
+            <value>Ошибка</value>
+    </data>
+    
+    <data name="UnknownError" xml:space="preserve">
+        <value>Неизвестная ошибка</value>
+    </data>
+    
+    <data name = "Successfully" xml:space="preserve">
+        <value>Успешно</value>
+    </data>
+
+    <data name = "SuccessfullyDeletedMessages" xml:space="preserve">
+        <value>Сообщения успешно удалены</value>
+    </data>
+
+    <data name = "ErrorDeletedTwoWeeks" xml:space="preserve">
+        <value>Некоторые сообщения, которые вы собираетесь удалить старше 2-х недель</value>
+    </data>
+
+    <data name = "SuccessfullyDeletedMessagesFromUser" xml:space="preserve">
+        <value>Сообщения от пользователя &lt;@{0}&gt;</value>
+    </data>
+
+    <data name = "SuccessfullyDeletedMessagesWithSymbol" xml:space="preserve">
+        <value>Сообщения с {0} успешно удалены</value>
+    </data>
+
+    <data name = "SuccessfullyRememberBirthday" xml:space="preserve">
+        <value>Я запомнил день рождение участника!</value>
+    </data>
+
+    <data name = "ErrorRememberBirthday" xml:space="preserve">
+        <value>Я уже помню дату день рождения участника</value>
+    </data>
+
+    <data name = "ErrorDontRemember" xml:space="preserve">
+        <value>Я не помню такого участника</value>
+    </data>
+
+    <data name = "SuccessfullyForgetBirthday" xml:space="preserve">
+        <value>День рождение пользователя успешно забыто</value>
+    </data>
+
+    <data name = "NoMessagesToClear" xml:space="preserve">
+        <value>Не могу удалить сообщения!</value>
+    </data>
+
+    <data name = "NoAccessToUse" xml:space="preserve">
+        <value>У вас нет прав на использования этой команды!</value>
+    </data>
+
+    <data name = "SuccessfullyAddToWhiteList" xml:space="preserve">
+        <value>Участник {0} успешно добавлен в вайт лист</value>
+    </data>
+    
+    <data name = "ErrorDeleteWhiteListServer" xml:space="preserve">
+        <value>Участник {0} не удален с вайт листа, потому что его нет на сервере!</value>
+    </data>
+
+    <data name = "ErrorDeleteWhiteListYet" xml:space="preserve">
+        <value>Участник {0} не удален с вайт листа, потому что он уже там находится</value>
+    </data>
+    
+    <data name = "SuccesfullyDeleteFromWhiteList" xml:space="preserve">
+        <value>Участник {0} успешно удален из вайт лист</value>
+    </data>
+
+    <data name = "PrintWhiteList" xml:space="preserve">
+        <value>Участники находящиеся в вайт листе: {0}</value>
+    </data>
+    
+    <data name = "ErrorPrintWhiteList" xml:space="preserve">
+        <value>Вайт лист пустой.</value>
+    </data>
+    <data name = "ErrorAddWhiteListYet" xml:space="preserve">
+        <value>Участник {0} не добавлен в вайт лист, потому что он уже там есть!</value>
+    </data>
+    <data name = "ErrorBanAlready" xml:space="preserve">
+        <value>Участник {0} уже забанен!</value>
+    </data>
+
+    <data name = "SuccesfullyBan" xml:space="preserve">
+        <value>Участник {0} успешно забанен!</value>
+    </data>
+
+    <data name = "DMBanMessage" xml:space="preserve">
+        <value>Вы были забанены на сервере {0} участником {1}, по причине {2}</value>
+    </data>
+
+    <data name = "ErrorUnbanMemberNotBan" xml:space="preserve">
+        <value>Пользователь {0} не забанен, я не могу его разбанить</value>
+    </data>
+
+    <data name = "UnBanWithoutReason" xml:space="preserve">
+        <value>Пользователь {0} разбанен без указания причины</value>
+    </data>
+
+    <data name = "UnBanWithReason" xml:space="preserve">
+        <value>Пользователь {0} разбанен по причине: {1}</value>
+    </data>
+
+    <data name = "UnknownDate" xml:space="preserve">
+        <value>Введена неверная дата</value>
+    </data>
+
+    <data name = "MemberKicked" xml:space="preserve">
+        <value>Участник {0} был успешно исключен!</value>
+    </data>
+
+    <data name = "DMMessageKick" xml:space="preserve">
+        <value>Вы были исключены с сервера {0}, участником {1}, по причине  {2}</value>
+    </data>
+
+    <data name = "EditLangOnServer" xml:space="preserve">
+        <value>Язык на сервере был изменен на {0}</value>
+    </data>
+
+    <data name = "UpcomingBirthdays" xml:space="preserve">
+        <value>Предстоящие день рождения</value>
+    </data>
+</root>
