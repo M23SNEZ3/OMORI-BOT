@@ -2,7 +2,7 @@
     <img src="OmoriBot.png">
 </p>
 <a href="https://github.com/Remora/Remora.Discord"><img src="https://img.shields.io/badge/powered_by-Remora.Discord-blue"></img></a>
-<a href="https://github.com/M23SNEZ3/OMORI-BOT/blob/master/LICENSE"><img src="https://img.shields.io/github/license/M23SNEZ3/OMORI-BOTt?logo=git"></img></a>
+<a href="https://github.com/M23SNEZ3/OMORI-BOT/blob/master/LICENSE"><img src="https://img.shields.io/github/license/M23SNEZ3/OMORI-BOT?logo=git"></img></a>
 <a href="https://github.com/M23SNEZ3/OMORI-BOT/commit/master"><img src="https://img.shields.io/github/last-commit/M23SNEZ3/OMORI-BOT?logo=github"></img></a>
 
 ### Welcome to WHITE SPACE. You have been living here for as long as you can remember.
