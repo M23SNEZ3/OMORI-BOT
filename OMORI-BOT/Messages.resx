@@ -148,4 +148,16 @@
     <data name = "UpcomingBirthdays" xml:space="preserve">
         <value>Предстоящие день рождения</value>
     </data>
+
+    <data name = "ErrorTableIsEmpty" xml:space="preserve">
+        <value>Таблица день рождений пуста!</value>
+    </data>
+
+    <data name = "ErrorUserInTableIsEmpty" xml:space="preserve">
+        <value>Участник не находится в таблице день рождений!</value>
+    </data>
+
+    <data name = "MemberBirthday" xml:space="preserve">
+        <value>День рождение участника</value>
+    </data>
 </root>

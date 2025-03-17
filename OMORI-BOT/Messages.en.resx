@@ -139,4 +139,13 @@
     <data name="UpcomingBirthdays" xml:space="preserve">
         <value>Upcoming birthdays</value>
     </data>
+    <data name="ErrorTableIsEmpty" xml:space="preserve">
+        <value>Table for birthday is empty!</value>
+    </data>
+    <data name="ErrorUserInTableIsEmpty" xml:space="preserve">
+        <value>Participant does not exist in the birthday table</value>
+    </data>
+    <data name="MemberBirthday" xml:space="preserve">
+        <value>Member Birthday</value>
+    </data>
 </root>

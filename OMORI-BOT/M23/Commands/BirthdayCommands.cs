@@ -116,6 +116,12 @@ namespace OMORI_BOT.M23.Commands;
                 .OrderBy(p => p.Date)
                 .ToList();
 
+            if (!users.Any())
+            {
+                var faildEmbed = new Embed(Title: Messages.Error, Description: Messages.ErrorTableIsEmpty, Colour: Color.Red);
+                return await _feedbackService.SendContextualEmbedResultAsync(faildEmbed, ct: CancellationToken);
+            }
+
             var pageFields = users.Select(resident => new EmbedField(
                 resident.Date.ToString("dd MMMM", new CultureInfo(language.Lang == Lang.Ru ? "ru-RU" : "en-US")),
                 $"<@{resident.Name}>",
@@ -164,12 +170,12 @@ namespace OMORI_BOT.M23.Commands;
                 {
                     new EmbedField($"{resident.Date:dd MMMM}", $"<@{resident.Name}>", false)
                 };
-                var embed = new Embed(Title: "День рождения участника", Fields: pageFields, Colour: Color.Bisque);
+                var embed = new Embed(Title: Messages.MemberBirthday, Fields: pageFields, Colour: Color.Bisque);
                 return await _feedbackService.SendContextualEmbedResultAsync(embed, ct: CancellationToken);
             }
             else
             {
-                var faildEmbed = new Embed(Title: Messages.UnknownError, Colour: Color.Red);
+                var faildEmbed = new Embed(Title: Messages.Error, Description: Messages.ErrorUserInTableIsEmpty, Colour: Color.Red);
                 return await _feedbackService.SendContextualEmbedResultAsync(faildEmbed, ct: CancellationToken);
             }
         }

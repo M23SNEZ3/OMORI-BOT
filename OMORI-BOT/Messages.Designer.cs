@@ -248,5 +248,24 @@ namespace OMORI_BOT {
                 return ResourceManager.GetString("UpcomingBirthdays", resourceCulture);
             }
         }
+        
+        internal static string ErrorTableIsEmpty {
+            get {
+                return ResourceManager.GetString("ErrorTableIsEmpty", resourceCulture);
+            }
+        }
+        
+        internal static string ErrorUserInTableIsEmpty {
+            get {
+                return ResourceManager.GetString("ErrorUserInTableIsEmpty", resourceCulture);
+            }
+        }
+        
+        
+        internal static string MemberBirthday {
+            get {
+                return ResourceManager.GetString("MemberBirthday", resourceCulture);
+            }
+        }
     }
 }
