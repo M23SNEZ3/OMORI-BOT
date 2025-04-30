@@ -5,11 +5,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Remora.Commands.Extensions;
-using Remora.Discord.API.Abstractions.Gateway.Commands;
 using Remora.Discord.Commands.Extensions;
 using Remora.Discord.Commands.Services;
-using Remora.Discord.Gateway;
-using Remora.Discord.Gateway.Extensions;
 using Remora.Discord.Hosting.Extensions;
 using Remora.Discord.Interactivity.Extensions;
 using Remora.Discord.Pagination.Extensions;
@@ -54,12 +51,6 @@ namespace OMORI_BOT
                 ).ConfigureServices(
                     (_, services) =>
                     {
-                        services.Configure<DiscordGatewayClientOptions>(
-                            options =>
-                            {
-                                options.Intents |= GatewayIntents.MessageContents
-                                                   | GatewayIntents.GuildMessages;
-                            });
                         services.AddTransient<IConfigurationBuilder, ConfigurationBuilder>()
                             .AddDbContext<ApplicationContext>() 
                             .AddTransient<DataBaseService>()
