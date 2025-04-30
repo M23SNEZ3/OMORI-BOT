@@ -63,7 +63,7 @@ sealed class AboutCommand : CommandGroup
             .WithTitle(string.Format(bot.Username))
             .WithDescription(Messages.about)
             .WithColour(Color.Bisque)
-            .WithImageUrl("https://cdn.discordapp.com/attachments/1203277819304747018/1348187779330216058/OmoriBot.png?ex=67ce8d36&is=67cd3bb6&hm=79309b0291f0cadebe40e4b3e795479a1100992a4d530a2ecffd726931eb57c3&")
+            .WithImageUrl("https://raw.githubusercontent.com/M23SNEZ3/OMORI-BOT/HEAD/OmoriBot.png")
             .Build();
         return await _feedback.SendContextualEmbedResultAsync(embed, ct: ct);
     }
