@@ -13,7 +13,7 @@ namespace OMORI_BOT.M23.Services;
     
     public sealed class WhiteListService
     {
-        private const string PathToJsonWhiteList = @"members.json";
+        private const string PathToJsonWhiteList = "./OMORI-BOT/members.json";
         public async Task<bool> CheckWhitelist(Snowflake id)
         {
             var ulongId = id.Value;
