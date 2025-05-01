@@ -13,6 +13,8 @@ using System.Globalization;
 using OMORI_BOT.M23.Extensions;
 using OMORI_BOT.M23.Services;
 using Remora.Discord.Commands.Extensions;
+using Remora.Discord.Extensions.Embeds;
+using Remora.Rest.Core;
 
 namespace OMORI_BOT.M23.Commands;
 
@@ -126,12 +128,13 @@ namespace OMORI_BOT.M23.Commands;
                 resident.Date.ToString("dd MMMM", new CultureInfo(language.Lang == Lang.Ru ? "ru-RU" : "en-US")),
                 $"<@{resident.Name}>",
                 false)).ToList();
-
+            
             var embed = new Embed
             {
                 Title = Messages.UpcomingBirthdays,
                 Colour = Color.Bisque,
-                Fields = pageFields
+                Fields = pageFields,
+                Image = new EmbedImage("https://raw.githubusercontent.com/M23SNEZ3/OMORI-BOT/HEAD/OMORI-BOT/M23/Assets/Birthday.jpg")
             };
 
             return await _feedbackService.SendContextualPaginatedResultAsync(contextUserId, new List<Embed> { embed });
