@@ -52,7 +52,7 @@ namespace OMORI_BOT
                     (_, services) =>
                     {
                         services.AddTransient<IConfigurationBuilder, ConfigurationBuilder>()
-                            .AddDbContext<ApplicationContext>() 
+                            .AddDbContext<ApplicationContext>()
                             .AddTransient<DataBaseService>()
                             .AddTransient<WhiteListService>()
                             .AddDiscordCommands(true)
@@ -64,7 +64,9 @@ namespace OMORI_BOT
                             .WithCommandGroup<WhiteListCommands>()
                             .WithCommandGroup<PurgeCommands>()
                             .WithCommandGroup<BirthdayCommands>()
-                            .WithCommandGroup<GuildSettingCommands>();
+                            .WithCommandGroup<GuildSettingCommands>()
+                            .WithCommandGroup<BanCommands>()
+                            .WithCommandGroup<KickCommands>();
                     }).ConfigureLogging(logging => { logging.AddConsole(); });
         }
 
